@@ -1,0 +1,87 @@
+:root{
+    --morado: #9C2780;
+    --moradoOscuro: #891190;
+    --amarillo:#FFCE00;
+    --amarilloOscuro:rgb(233,287,2);
+    --blanco:#fff;
+    --negro:#000;
+    --fuentePrincipal: 'Mitr', sans-serif;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/**globales**/
+
+body{
+    background-color: var(--morado);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family:var(--fuentePrincipal);
+}
+
+p{
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+h1,h2,h3{
+    text-align: center;
+    color: var(--amarillo);
+    
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.4rem;
+}
+
+/**header**/
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo{
+    margin: 3rem 0;
+}
+
+.navegacion{
+    background-color: var(--moradoOscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navegacion__enlace{
+    color:var(--blanco);
+    font-size: 3rem;
+}
